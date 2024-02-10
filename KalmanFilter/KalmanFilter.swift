@@ -42,7 +42,7 @@ public struct KalmanFilter<Type: KalmanInput>: KalmanFilterType {
     }
     
     /**
-     Update step in Kalman filter. We update our prediction with the measurements that we make
+     Update step in Kalman filter. We update our prediction with the measurements that we make
      
      - parameter measurement: z_k
      - parameter observationModel: H_k
